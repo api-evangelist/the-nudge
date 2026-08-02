@@ -1,8 +1,26 @@
 aid: the-nudge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-nudge.png
 name: The Nudge
-description: The Nudge is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  The Nudge is a free consumer lifestyle app that texts its members short videos
+  from locals recommending their favorite real-world things to do — secret hikes,
+  date ideas, restaurants, and activities — a few "Nudges" each week to help people
+  (primarily millennials) have more fun in real life and be more adventurous,
+  romantic, and social. Founded in 2018 by siblings Sarah and John Peterson and
+  based in San Francisco, The Nudge is available on iOS and Android and is backed
+  by Lightspeed Venture Partners among other investors. It is a business-to-consumer
+  product delivered over SMS and mobile apps, with no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/the-nudge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer
+- Lifestyle
+- Mobile App
+- Recommendations
+- Local Discovery
+- SMS
+- Millennials
 apis: []
+common:
+- type: DomainSecurity
+  url: security/the-nudge-domain-security.yml
+- type: Website
+  url: https://www.nudgetext.com/
+- type: Support
+  url: https://www.nudgetext.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
