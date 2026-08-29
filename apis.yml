@@ -33,6 +33,9 @@ description: >-
   by Lightspeed Venture Partners among other investors. It is a business-to-consumer
   product delivered over SMS and mobile apps, with no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/the-nudge/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a business-to-consumer product delivered over SMS and mobile apps, with no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
